@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Première enquête de l’association FLUX pour mieux vous connaître</title>
+    <meta name="description" content="sondage de l'association Flux">
+    <meta name="author" content="Association Flux / Pierre Commenge, pierre@lesporteslogiques.net">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://unpkg.com/knockout/build/output/knockout-latest.js"></script>
+    <link href="https://unpkg.com/survey-knockout/modern.min.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/survey-knockout/survey.ko.min.js"></script>
+    <script type="text/javascript" src="sondage.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <style>
+
+        /*
+            Misto, par Katerina Korolevtseva : https://fontlibrary.org/en/font/misto
+            Libre Baskerville, par Pablo Impallari, Rodrigo Fuenzalida: https://fontlibrary.org/en/font/libre-baskerville
+        */
+
+        @font-face {
+            font-family: 'misto';
+            src: url('./css/Misto.ttf');
+        }
+
+        @font-face {
+            font-family: 'baskerville';
+            src: url('./css/LibreBaskerville-Regular.ttf');
+        }
+
+        #preambule {
+            margin: 1.5em;
+            font-family: 'baskerville';
+            font-size: 0.9em;
+            line-height: 1.3em;         /* hauteur de ligne */
+            text-align: justify;
+        }
+
+        #lienretour {
+            text-align: right;
+        }
+
+        h1 {
+            font-family: 'misto';
+        }
+/*
+        p {
+            margin-left: 4em;
+            margin-right: 9em;
+            text-align: justify;
+        }
+*/
+        p::first-letter {               /* première lettre de chaque paragraphe */
+            margin-left: -10px;
+            font-size:1.1em;
+        }
+
+        a {
+            color: #1ab394;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+<div id="preambule">
+    <h1>sondage flux</h1>
+    <div id="lienretour">
+        <a href="https://flux.bzh">retour à la page d'accueil du site</a>
+    </div>
+    <p>Bonjour! Depuis plus d’un an, nous réfléchissons à la création d’un tiers-lieu à Quimper, qui favorise la convivialité, la rencontre, les échanges, les apprentissages, la créativité!</p>
+    <p>Un “tiers-lieu”? Un lieu qui n’est ni la maison, ni le travail, un espace de possibles, géré collectivement. Il sera situé en proximité du cœur de ville, en arrivant du Moulin Vert. Il proposera un café, un fablab (atelier de fabrication/Bricolage), des espaces de coworking, de formation, et toutes sortes d’activités à imaginer ensemble.</p>
+    <p>Nous sommes habitant·e·s de Quimper ou QBO (ou nous y travaillons), nous sommes professionnel·le·s de secteurs associatifs divers.</p>
+    <p>Dans le cadre de cette enquête, nous souhaitons connaître vos situations, vos habitudes, vos envies, vos moteurs, vos freins, vos propositions, pour construire collectivement ce lieu.</p>
+    <p>Merci pour vos précieuses contributions qui resteront anonymes. Ce questionnaire s’adresse à des personnes à partir de 16 ans.</p>
+
+    <p>Si vous avez des questions ou des difficultés particulières pour répondre à ce questionnaire, nous pouvons aussi le faire par téléphone ou en face à face, vous pouvez appeler Julia au <a href="tel:0766616302">07-66-61-63-02</a> ou sur <a href="mailto:salut@flux.bzh">salut@flux.bzh</a></p>
+
+    <p>Ce questionnaire vous prendra 10 minutes!</p>
+</div>
+
+<div id="surveyContainer"></div>
+
+<br><br><br><br>
+
+</body>
+</html>
