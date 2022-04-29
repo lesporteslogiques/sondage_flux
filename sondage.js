@@ -228,7 +228,7 @@ const surveyJson = {
                             {
                                 "type": "ranking",
                                 "name": "autre-lieu-activite-critere",
-                                "title": "Si vous pouviez avoir un lieu type « bureau » pour travailler/étudier/faire des recherches/des visios, quels seraient vos critères ?",
+                                "title": "Si vous pouviez avoir un lieu type « bureau » pour travailler/étudier/faire des recherches/des visios, quels seraient vos critères ? (Placer les vignettes dans l'ordre préférentiel)",
                                 "isRequired": false,
                                 "choices": [
                                     "Coût",
@@ -455,7 +455,7 @@ const surveyJson = {
                             {
                                 "type": "ranking",
                                 "name": "sortie-restauration-limite",
-                                "title": "Quels sont les freins/limites à ces sorties ?",
+                                "title": "Quels sont les freins/limites à ces sorties ? (Placer les vignettes dans l'ordre préférentiel)",
                                 "isRequired": false,
                                 "choices": [
                                     "La flemme",
@@ -810,7 +810,7 @@ const surveyJson = {
                         "elements": [
                             {
                                 "type": "radiogroup",
-                                "name": "benevolat",
+                                "name": "age",
                                 "title": "Quel âge avez-vous ?",
                                 "isRequired": false,
                                 "hasNone": false,
